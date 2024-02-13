@@ -1,0 +1,12 @@
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: minenight;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes minenight{
+    from{box-shadow: 3px 3px 50px lightblue;}
+    to{box-shadow: 3px 3px 50px lightgreen;}
+}
